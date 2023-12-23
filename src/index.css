@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button_color{
+         background-image: linear-gradient(to right top, #cd6bd1, #cf70d5, #d175da, #d47ade, #d67fe2, #d082e7, #c986ec, #c289f0, #ae8bf5, #978ef8, #7e90fb, #5f92fb);
+}
+
+.button{
+   background-color: rgb(42, 38, 33);    
+}
+
+.dataBg{
+   background: rgba(255, 255, 255, 0.7);
+}
+
+input::placeholder{
+   color: #d7d7dd;
+}
