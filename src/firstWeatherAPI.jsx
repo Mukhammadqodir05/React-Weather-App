@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import bg2 from '/src/assets/bg2.jpg'
 const WeatherApp = () => {
   const [city, setCity] = useState('Mecca');
   const [error, setError] = useState("");
@@ -78,7 +78,8 @@ const WeatherApp = () => {
 
   return (
 <main className="flex justify-center h-[670px] border-2 border-black p-2 bg-black text-white max-w-[350px] w-full rounded-[40px] overflow-hidden shadow-2xl relative">
-  <div className="border rounded-[30px] border-black h-full w-full bg-[url('src/assets/thunderstorm-3625405_960_720.jpg')] bg-black bg-center bg-cover">
+  <div className="border rounded-[30px] border-black h-full w-full bg-black bg-center bg-cover" 
+  style={{ backgroundImage: `url(${bg2})`}}>
     <div className='flex justify-center items-center py-2'>
       <span className='bg-black rounded-3xl h-[30px] w-[100px]' />
     </div>
