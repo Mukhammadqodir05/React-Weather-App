@@ -138,9 +138,10 @@ const WeatherApp = () => {
       )}
     </div>
 
-    <div className='text-center mt-4'>
-      <span className='bg-white mt-0 rounded-3xl h-[5px] w-[120px]' />
+    <div className='text-center flex justify-center bottom-0'>
+        <span className=' mt-0 absolute bottom-5 bg-white rounded-3xl h-[5px] w-[120px]'></span>
     </div>
+
   </div>
  </main>
  );
